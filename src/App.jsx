@@ -10,7 +10,7 @@ import SignUpPage from './components/SignUp'
 import FIrstPage from './components/FIrstPage'
 const router = createBrowserRouter([
   {
-    path:"/Login",
+    path:"/login",
     element:<ProtectRoute><LoginPage/></ProtectRoute>
   },
   {

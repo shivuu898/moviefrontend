@@ -17,7 +17,7 @@ const dispatch = useDispatch()
     setPassword("")
     // Logic to authenticate user
     try {
-        const res = await axios.post(`backmovie-ecru.vercel.app/api/user/login`,{email,password}, {
+        const res = await axios.post(`backend-self-iota.vercel.app/api/user/login`,{email,password}, {
                 headers: {
                     'Content-Type': 'application/json'
                 },

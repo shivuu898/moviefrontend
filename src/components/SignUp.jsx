@@ -14,7 +14,7 @@ const navigate = useNavigate()
   const handleSignUp = async(e) => {
     e.preventDefault();
     try {
-        const res = await axios.post(`backmovie-ecru.vercel.app/api/user/signup`,{username,email,password}, {
+        const res = await axios.post(`backend-self-iota.vercel.app/api/user/signup`,{username,email,password}, {
                 headers: {
                     'Content-Type': 'application/json'
                 },
